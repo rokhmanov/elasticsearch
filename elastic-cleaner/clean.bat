@@ -1,0 +1,1 @@
+java -jar target/elastic-cleaner-0.0.1-SNAPSHOT.jar -Ddebug.enable=false -Dcluster.name="chorus" -Dhost.name="rokan01-VM3762" -Dport.number=9300 -Dindex.name=logstash >> out.txt
