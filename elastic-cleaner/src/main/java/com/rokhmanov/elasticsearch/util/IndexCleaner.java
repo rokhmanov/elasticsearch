@@ -32,7 +32,7 @@ public class IndexCleaner
     public static void main(String[] args)
     {
         logger = Logger.getRootLogger();
-        logger.addAppender(new ConsoleAppender(new PatternLayout("%-6r [%p] %c - %m%n")));
+        logger.addAppender(new ConsoleAppender(new PatternLayout("%d{ISO8601} [%t] %-5p %c %x - %m%n")));
         if (!DEBUG_ENABLE)
         {
             logger.setLevel(Level.INFO);    

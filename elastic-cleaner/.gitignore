@@ -1,8 +1,0 @@
-target/
-*.class
-dependency-reduced-pom.xml 
-
-# Package Files #
-*.jar
-*.war
-*.ear
